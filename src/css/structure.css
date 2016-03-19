@@ -2,21 +2,6 @@
   min-height: 100%;
 }
 
-.top.menu {
-  margin-top: 0.5em !important;
-}
-
 .pusher .content {
   margin-top: 2em;
-}
-
-.account-profile{
-  cursor: pointer;
-  > * {
-    margin-left: 0.3em;
-    margin-right: 0.3em;
-  }
-  img {
-    border-radius: 50%;
-  }
 }
