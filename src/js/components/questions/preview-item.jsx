@@ -51,18 +51,20 @@ const NoAnswer = props => {
   return (
     <div className="footer">
       {
-        !passed && (
-          <div>
-            <BasicButton className="compact blue icon">
+        !passed && [
+          (
+            <BasicButton key="1" className="compact blue icon">
               <WriteIcon />
               Answer
             </BasicButton>
-            <BasicButton className="compact" onClick={passQuestion.bind(undefined, question.id)}>
+          ), (
+            <BasicButton key="2" className="compact" onClick={passQuestion.bind(undefined, question.id)}>
               Pass
             </BasicButton>
-            <a className="follow">Follow {question.follow}</a>
-          </div>
-        )
+          ), (
+            <a key="3" className="follow">Follow {question.follow}</a>
+          )
+        ]
       }
       <a className="downvote">Downvote</a>
     </div>
@@ -89,6 +91,7 @@ const Answer = props => {
       </div>
       <div className="content">
         {content}
+        <a href="#" className="more">(More)</a>
       </div>
       <div className="footer">
         <BasicButton className="compact labled blue icon">
