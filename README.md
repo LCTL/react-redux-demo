@@ -15,7 +15,7 @@ In components folder, frameset is a application UI wrapper for wrap view compone
 > In an ideal world, most of your components would be stateless functions because in the future we’ll also be able to make performance optimizations specific to these components by avoiding unnecessary checks and memory allocations. This is the recommended pattern, when possible.
 
 ### Attention to detail
-Redux action function won't work when you not wrpped by react-redux connect or not forget pass the return action to dispatcher. All objects stored in Redux store are immutable. 
+Redux action won't work when you not wrpped by react-redux connect or not use Redux dispatcher. All objects stored in Redux store are immutable. Please don't directly update object value in reducer.
 
 ### Readability and maintainability
 This project require you have ES2015 and JSX for React knowledge. If you don't have ES2015 or JSX for React knowledge, please go to https://babeljs.io/docs/learn-es2015/ and https://facebook.github.io/react/docs/tutorial.html for learn more about ES2015 and JSX.
