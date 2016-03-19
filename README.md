@@ -25,8 +25,10 @@ JSX makes it easy to read the code of components. It is also really easy to see 
 ### Limitations
 Redux only support sync operation, please add redux-thunk middleware for handle async operation. 
 
-The semantic-ui only support modern browsers:
+The semantic-ui only support modern browser:
 * Last 2 Versions FF, Chrome, IE 10+, Safari Mac
 * IE 10+
 * Android 4.4+, Chrome for Android 44+
 * iOS Safari 7+
+
+This project only implement "pass" function. Other function just have layout only. Assump user logged in and viewing main page.
