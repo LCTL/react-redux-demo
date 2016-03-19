@@ -29,8 +29,8 @@
     }
 
     &.passed {
-      .header .title{
-        color: var(--dim-color);
+      .header .title a{
+        color: var(--dim-color) !important;
       }
     }
 
