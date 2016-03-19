@@ -32,3 +32,16 @@ The semantic-ui only support modern browser:
 * iOS Safari 7+
 
 This project only implement "pass" function. Other function just have layout only. Assump user logged in and viewing main page.
+
+### Stack
+
+* React.js
+* React Router
+* Redux
+* Redux Logger
+* React Router Redux
+* Lodash
+* Semantic UI
+* Moment
+
+### License - MIT
