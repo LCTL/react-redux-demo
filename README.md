@@ -30,7 +30,3 @@ The semantic-ui only support modern browsers:
 * IE 10+
 * Android 4.4+, Chrome for Android 44+
 * iOS Safari 7+
-
-
-### To Do
-1. Fix the sidebar menu and dimmer only cover the content height only.
