@@ -4,6 +4,7 @@ import { Router, hashHistory as history } from 'react-router';
 
 import MainFrameset from './framesets/main-frameset';
 import MainView from './views/main-view';
+import DummyView from './views/dummy-view';
 
 const routeConfig = [
   {
@@ -11,7 +12,11 @@ const routeConfig = [
     component: MainFrameset,
     indexRoute: {
       component: MainView
-    }
+    },
+    childRoutes: [{
+      path: 'dummy-page',
+      component: DummyView
+    }]
   }
 ];
 
