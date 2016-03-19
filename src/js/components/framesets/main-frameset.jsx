@@ -29,7 +29,9 @@ class MainFrameset extends React.Component {
         <div className="pusher">
           <TopNavbar toggleSidebar={this.toggleSidebar.bind(this)} location={this.props.location} />
           <Divider className="top" />
-          { this.props.children }
+          <div className="content">
+            { this.props.children }
+          </div>
         </div>
       </div>
     );
