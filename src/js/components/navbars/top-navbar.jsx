@@ -24,12 +24,12 @@ export default props => (
             <a>Steve Jobs</a>
           </div>
           <div className="item" onClick={props.toggleSidebar}>
-            <SideBarIcon />
+            <SideBarIcon className="toggle-sidebar" />
           </div>
         </div>
         <div className="mobile only row">
           <div className="item" onClick={props.toggleSidebar}>
-            <SideBarIcon />
+            <SideBarIcon className="toggle-sidebar" />
           </div>
         </div>
       </div>
